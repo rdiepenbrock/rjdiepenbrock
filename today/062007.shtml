@@ -1,0 +1,28 @@
+
+		<div class="cols">
+			<header><h2>Full Speed Ahead</h2></header>
+			<img src="/images/pictures/wedding/honeymoon/day2/day2_front.jpg" border="0" alt="" />
+			<div class="caption">It's Day 2, our first day at sea, and we're cruising to Oslo, Norway.</div>
+		</div>
+		<div class="cols">
+			<div class="textLeft">
+				<header><h3>New Today: <span class="date">Honeymoon Info</span></h3></header>
+				<strong>Date</strong>: May 23 to June 6<br />
+				<strong>Cruise</strong>: <a href="http://www.royalcaribbean.com/home.do" target="new">Royal Caribbean</a><br />
+				<strong>Where</strong>: Scandinavia, Russia<br />
+				<strong>Itinerary</strong>:
+				<ul>
+					<li><b>Day 1</b>: Harwich, England</li>
+					<li><b>Day 2</b>: at Sea</li>
+					<li><b>Day 3</b>: Oslo, Norway</li>
+					<li><b>Day 4</b>: Copenhagen, Denmark</li>
+					<li><b>Day 5</b>: at Sea</li>
+					<li><b>Day 6</b>: Stockholm, Sweden</li>
+					<li><b>Day 7</b>: Helsinki, Finland</li>
+					<li><b>Day 8,9</b>: St. Petersburg, Russia</li>
+					<li><b>Day 10</b>: Tallinn, Estonia</li>
+					<li><b>Day 11,12</b>: at Sea</li>
+					<li><b>Day 13</b>: Harwich, England</li>	
+				</ul>		
+			</div>
+		</div>

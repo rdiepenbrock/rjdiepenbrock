@@ -1,0 +1,144 @@
+/* inside styles */
+.clear { clear: both; }
+.textLeft {
+	font: 500 14px arial,helvetica,sans-serif !important;
+	text-align: left !important; 
+}
+.textLeft h3 {
+	font-size:18px; 
+	padding: 0 0 10px;
+}
+.date { font: 600 15px arial,helvetica,sans-serif; }
+
+#outerWrapper > section .content { width: 99%; }
+#outerWrapper > section .content .cols:last-of-type { 
+	display:block !important;
+	float:left;
+	width: 99% !important;
+	padding:0 !important; 
+}
+#outerWrapper > section .content .cols header h2 {
+	clear: both;
+	font-size: 18px;
+	text-align: center;
+	padding: 0 0 5px;
+}
+#outerWrapper > section .content .cols div,
+#outerWrapper > section .content .cols img {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+#outerWrapper .content > section#wedding,
+#outerWrapper .content > section#today {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	float: left;
+	width: 100% !important;
+}
+
+/* today section */
+#outerWrapper .content > section#today .today { width: 100%; }
+#outerWrapper .content > section#today .today > .cols {
+	clear: none !important;
+	float: left;
+	width: 49.9% !important;
+	vertical-align:top;
+}
+#outerWrapper .content > section#today .today > .cols.gallery,
+#outerWrapper .content > section#today .today > .cols.gallery:last-of-type {
+	clear: none !important;
+	width: 99% !important;
+	float:left !important; 
+	padding: 0 !important;
+	margin: 0 auto !important;
+}
+#outerWrapper .content > section#today .todayNav,
+#outerWrapper .content > section#today .today img { margin-bottom: 10px; }
+#outerWrapper .content > section#today .todayNav nav li { line-height: 22px; }
+#outerWrapper .content > section#today .todayNav li a:hover { color: #fff !important; }
+#outerWrapper .content > section#today .today > .cols .textLeft { width:74.9%;margin:0 auto; }
+
+/* wedding section */
+#outerWrapper .content > section#wedding {
+	width: 98% !important;
+	padding: 0 1% !important;
+}
+#outerWrapper .content > section#wedding > .cols,
+#outerWrapper .content > section#wedding > .cols:last-of-type {
+	clear: none !important;
+	width: 33.2% !important;
+	float:left !important; 
+	padding: 0 !important;
+}
+#outerWrapper .content > section#wedding > .cols.gallery,
+#outerWrapper .content > section#wedding > .cols.gallery:last-of-type {
+	clear: none !important;
+	width: 99% !important;
+	float:left !important; 
+	padding: 0 !important;
+	margin: 0 auto !important;
+}
+#outerWrapper .content > section#wedding .cols img { width:auto !important;margin:0 10px 10px 0; }	
+
+/* iPhones ----------- */
+@media only screen and (min-width : 250px) and (max-width : 480px) {
+	body {
+		-webkit-text-size-adjust:none;
+		font-family: helvetica,arial,sans-serif;
+	}
+	#outerWrapper > section .content { padding: 10px 0 !important; }	
+	#outerWrapper .content > section#wedding > .cols:last-of-type { width: inherit !important; }
+	#outerWrapper .content > section#wedding > .cols + .cols + .cols { width: 33.2% !important; }	
+	#outerWrapper .content > section#wedding .cols img { display:block !important;margin:0 auto 10px; }
+	#outerWrapper .content > section#wedding .cols .date { display:block !important; }
+	#outerWrapper .content > section#today .todayNav li a { font-size: 90% !important;line-height:22px; }
+	#outerWrapper .content > section#today .today { display:block !important;float:left;width:100% !important; }
+	#outerWrapper .content > section#today .today img { margin: 8px 0; }
+	#outerWrapper .content > section#today .today > .cols { clear:both !important;display:block !important;float:none !important;width: 100% !important;vertical-align:top; }
+	#outerWrapper .content > section#today .today > .cols .textLeft { width:74.9% !important;font-size:90% !important;margin:0 auto !important; }
+}
+
+/* iPads, tablets ----------- */
+@media only screen and (min-width : 1025px) and (max-width : 1470px) {
+	body {
+		-webkit-text-size-adjust:none;
+		font-family: helvetica,arial,sans-serif;
+	}
+	#outerWrapper > section .content .cols { min-width:33.2% !important;padding:0 !important; }	
+	#outerWrapper .content > section#wedding > .cols:last-of-type { width: inherit !important; }
+	#outerWrapper .content > section#wedding > .cols + .cols + .cols { width: 33.2% !important; }	
+	#outerWrapper .content > section#wedding .cols img { width:auto !important;margin:0 10px 10px 0; }
+	#outerWrapper .content > section#today .today { display:block !important;float:left;width:98% !important;padding:0 1%; }
+	#outerWrapper .content > section#today .today img { margin-bottom: 10px; }
+	#outerWrapper .content > section#today .today > .cols .textLeft { width:74.9%;margin:0 auto; }
+}
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+	body {
+		-webkit-text-size-adjust:none;
+		font-family: helvetica,arial,sans-serif;
+	}
+	#outerWrapper .content > section#wedding > .cols:last-of-type { width: 99% !important;margin:0 auto !important; }
+	#outerWrapper .content > section#wedding > .cols + .cols + .cols { width: 33.2% !important; }	
+	#outerWrapper .content > section#wedding .cols img { width:auto !important;margin:0 10px 10px 0; }
+	#outerWrapper .content > section#today .today { display:block !important;float:left;width:98% !important;padding:0 1%; }
+	#outerWrapper .content > section#today .today img { margin-bottom: 10px; }
+	#outerWrapper .content > section#today .today > .cols .textLeft { width:74.9%;margin:0 auto; }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+	body {
+		-webkit-text-size-adjust:none;
+		font-family: helvetica,arial,sans-serif;
+	}	
+	#outerWrapper > section .content { padding: 10px 0 !important; }	
+	#outerWrapper .content > section#wedding > .cols:last-of-type { width: inherit !important; }
+	#outerWrapper .content > section#wedding > .cols + .cols + .cols { width: 33.2% !important; }
+	#outerWrapper .content > section#wedding .cols img { display:block !important;margin:0 auto 10px; }
+	#outerWrapper .content > section#wedding .cols .date { display:block !important; }
+	#outerWrapper .content > section#today .todayNav li a { font-size: 90% !important; }
+	#outerWrapper .content > section#today .today { display:block !important;float:left;width:98% !important;padding:0 1%; }
+	#outerWrapper .content > section#today .today img { margin: 8px 0; }
+	#outerWrapper .content > section#today .today > .cols .textLeft { max-width:215px;margin-left:15px; }
+}

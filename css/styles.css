@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #eee;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+h2 {
+	font: 700 24px arial,helvetica,sans-serif;
+	text-align: center;
+	margin: 0;
+	padding:0;
+}
+h3 {
+	font: 600 15px arial,helvetica,sans-serif;
+	text-align: center;
+	margin: 0;
+	padding:0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* site wrapper */
+#outerWrapper {
+	width: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* header content */
+#outerWrapper > header {
+	display: table;
+	width: 100%;
+	height: 100px;
+	background: #233b54;
+	margin: 0;
+	padding: 0;
+}
+#outerWrapper > header .logo {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+#outerWrapper > header .logo a {
+	color: #fff;
+	font: 800 40px verdana, helvetica, arial;
+	text-shadow: 2px 2px 1px #420b52;
+}
+#outerWrapper > header .logo a { text-decoration: none; }
+
+/* weather */
+#outerWrapper > header #weather {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right:20px;
+	color: #fff;
+	font: 600 16px arial,helvetica,sans-serif;
+	white-space: nowrap;
+	text-align: right;
+}
+#outerWrapper > header #weather img {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+/* content wrapper*/
+#outerWrapper > section {
+	clear: both;
+	width: 90%;
+	background: #fff;
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px 2px #000;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* navigation */
+#outerWrapper > section nav {
+	width: auto;
+	border-bottom: 1px solid #420b52;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+#outerWrapper > section nav ul {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#outerWrapper > section nav li {
+	display: inline;
+	width: auto;
+}
+#outerWrapper > section nav li a {
+	color: #000;
+	font: 500 16px verdana, helvetica, arial;
+	padding: 5px;
+}
+#outerWrapper > section nav li a:hover {
+	text-decoration: none;
+	background: #420b52;
+	color: #fff;
+	padding: 5px;
+}
+#outerWrapper > section nav .socialMedia {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+/* content */
+#outerWrapper > section .content {
+	display: table;
+	margin: 0 auto;
+	padding: 20px 10px;	
+}
+#outerWrapper > section .content .cols {
+	display: table-cell;
+	vertical-align: top;
+	font: normal 12px arial,helvetica,sans-serif;
+	text-align: center;
+	width: 32.3%;
+	margin: 0;
+	padding: 0 10px;
+}
+#outerWrapper > section .content .cols a { color: #000; }
+#outerWrapper > section .content .cols header {
+	background: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#outerWrapper > section .content .cols img {
+	border: 1px solid #000;
+	width: auto;
+	text-align: center;
+	margin: 5px auto;
+}
+#outerWrapper > section .content .cols .divider {
+	background: #420b52;
+	width: 75%;
+	height: 1px;
+	margin: 5px auto;
+	padding: 0;
+}
+#outerWrapper > section .content .cols .box {
+	float: left;
+	width: 49.9%;
+	margin: 0;
+	padding: 10px 0 0;
+}
+#outerWrapper > section .content .cols .box > div {
+	width: 74.9%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* footer wrapper*/
+#outerWrapper > footer {
+	display: table;
+	width: 90%;
+	height: 30px;
+	background: #233b54;
+	border: 1px solid #233b54;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	margin: 0 auto;
+	padding: 0;
+}
+#outerWrapper > footer a { color: #fff; }
+#outerWrapper > footer .emails,
+#outerWrapper > footer .copyright {
+	width: auto;
+	display: inline-block;
+	color: #fff;
+	font: normal 14px arial,helvetica,sans-serif;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+#outerWrapper > footer .emails div {
+	float: left;
+	padding-right:10px;
+}
+#outerWrapper > footer .copyright { float: right; }
+
+/* iPhones ----------- */
+@media only screen and (min-width : 250px) and (max-width : 480px) {
+	#outerWrapper > header .logo { padding-left:0 !important;text-align:center; }
+	#outerWrapper > header .logo a { font-size:175% !important; }
+	#outerWrapper > section { border:none !important;box-shadow:0 1px 5px #000 !important;width:100% !important;padding:0 !important; }
+	#outerWrapper > section nav ul { display:block;padding-bottom:10px; }
+	#outerWrapper > section .content { padding: 20px 0 !important; }
+	#outerWrapper > section .content .cols { clear:both !important;display:block !important;width:100% !important;padding:0 !important;padding-bottom:20px !important; }
+	#outerWrapper > section .content .cols img { max-width:74.9% !important; }
+	#outerWrapper > section .content .cols .caption { font-size: 75%; }
+	#outerWrapper > section .content .cols .box { clear:both;display:block;width:99%; }	
+	#outerWrapper > footer .emails, #outerWrapper > footer .copyright { width: 99% !important;display:block !important;text-align:center;margin:0 !important;padding:10px; }
+	#outerWrapper > footer .copyright { padding-top:0; }
+	#outerWrapper > footer .emails div { float:none;display:inline;text-align:center;margin:0;padding:0; }
+	#outerWrapper > footer .copyright { float: none !important; }
+	#outerWrapper > header #weather,
+	#outerWrapper > section .content .cols:last-of-type,
+	#outerWrapper > section .content .cols iframe#twitter-widget-0 { display:none !important; }
+}
+
+/* iPads, tablets ----------- */
+@media only screen and (min-width : 1025px) and (max-width : 1470px) {
+	#outerWrapper > section .content { padding: 20px 0 !important; }
+	#outerWrapper > section .content .cols { min-width: 49.5% }
+	#outerWrapper > section .content .cols img { max-width:84.9% !important; }
+}
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+	#outerWrapper > section .content { padding: 20px 0 !important; }
+	#outerWrapper > section .content .cols { clear:both !important;display:block !important;width:100% !important;padding:0 !important;padding-bottom:20px !important; }
+	#outerWrapper > section .content .cols img { max-width:74.9% !important; }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+	#outerWrapper > header .logo a { font-size:225% !important; }
+	#outerWrapper > header #weather { display:table-cell;vertical-align:middle; }
+	#outerWrapper > section .content { padding: 20px 0 !important; }
+	#outerWrapper > section .content .cols { clear:both !important;display:block !important;width:100% !important;padding:0 !important;padding-bottom:20px !important; }
+	#outerWrapper > section .content .cols img { max-width:74.9% !important; }
+	#outerWrapper > section .content .cols .caption { font-size: 75%; }
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>rjdiepenbrock.com: Wedding</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Expires" content="now" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="description" content="rjdiepenbrock.com" />
+<meta name="keywords" content="R.J. Diepenbrock, Diepenbrock, Texas, San Antonio, Kansas State University, K-State, Wildcats, Florida, Georgia" />
+<meta name="author" content="Diepenbrock, R.J.; netsportsguy@yahoo.com, 2014" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<script src="/scripts/jquery-1.11.js" type="text/javascript"></script>
+<script src="/scripts/lightbox.js" type="text/javascript"></script>
+	
+<link rel="Shortcut Icon" href="/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/css/lightbox.css" />
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/inside.css" />
+
+</head>
+
+<body>
+
+<div id="outerWrapper">
+	<header>
+		<div class="logo">
+			<!--#include virtual="/includes/logo.shtml"-->				
+		</div>
+	</header>
+	<section>
+		<nav role="navigation">
+			<ul>
+				<!--#include virtual="/includes/nav.shtml"-->
+			</ul>
+			<!--#include virtual="/includes/socialmedia.shtml"-->
+		</nav>	
+		<div class="content">
+			<section id="wedding">		
+
+				<div class="cols gallery">
+					<header><h2>Wedding On the Beach</h2></header>
+	
+					<a data-lightbox="location" data-title="A wedding on the Ft. Lauderdale Beach." href="/images/pictures/wedding/location/beach2.jpg"><img src="/images/pictures/wedding/location/beach2_sm.jpg" class="float-right" border="0" alt="" /></a>
+					<a data-lightbox="location" data-title="A wedding on the Ft. Lauderdale Beach." href="/images/pictures/wedding/location/beach1.jpg"><img src="/images/pictures/wedding/location/beach1_sm.jpg" class="float-left" border="0" alt="" /></a>
+					<a data-lightbox="location" data-title="R.J. and Amy scouting locations for their wedding." href="/images/pictures/wedding/location/beach3.jpg"><img src="/images/pictures/wedding/location/beach3_sm.jpg" class="float-left" border="0" alt="" /></a>	
+				</div>
+						
+			</section>
+		</div>
+	</section>
+	<footer>
+		<div class="emails">
+			<!--#include virtual="/includes/contact.shtml"-->
+		</div>
+		<div class="copyright">
+			<!--#include virtual="/includes/copyright.shtml"-->		
+		</div>	
+	</footer>
+</div>
+
+<script type="text/javascript" src="/scripts/custom.js"></script>	
+</body>
+</html>
